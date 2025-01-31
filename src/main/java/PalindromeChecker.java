@@ -40,8 +40,6 @@ public boolean palindrome(String word)
   
   word = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
   return word.equals(reverse(word));
-
-  return false;
 }
 public String reverse(String str)
 {
